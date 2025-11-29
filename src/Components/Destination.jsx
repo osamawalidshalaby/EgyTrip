@@ -1,5 +1,5 @@
 import React from 'react';
-import {useState }from 'react';
+
 const destination = [
     {
         name:'Alexandria',
@@ -59,3 +59,4 @@ return (
     </div>
 );
 }
+export default destination;
