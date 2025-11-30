@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Navbar from './Components/Navbar.jsx'
 import HeroSection from './Components/HeroSection.jsx'
 import PopularTours from './Components/PopularTours.jsx'
+import Destination from './Components/Destination.jsx'
 import Testimonials from './Components/Testimonials.jsx'
 import Footer from './Components/Footer.jsx'
 import './App.css'
@@ -28,6 +29,7 @@ function App() {
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <HeroSection />
       <PopularTours tours={tours} />
+      <Destination />
       <Testimonials testimonials={testimonials} />
       <Footer />
     </div>
