@@ -1,14 +1,15 @@
 import React from 'react';
 import SearchBar from './SearchBar.jsx';
+import heroImage from '../assets/hero.jpg';
 
-// Hero Section Component
+
 function HeroSection() {
   return (
     <header
       className="text-white text-center d-flex align-items-center container-fluid "
       style={{
         height: "100vh",
-        backgroundImage: `url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600')`,
+        backgroundImage: `url(${heroImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         position: "relative"
