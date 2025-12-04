@@ -2,13 +2,13 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import logo from '../assets/logo.png';
-import './Navbar.css'; // سيتم إنشاء هذا الملف
+import './Navbar.css'; 
 
 function Navbar({ menuOpen, setMenuOpen }) {
   return (
     <nav className="navbar navbar-expand-lg bg-white shadow-sm py-3 sticky-top custom-navbar">
       <div className="container">
-        {/* Logo and Brand */}
+    
         <div className="d-flex align-items-center">
           <img
             src={logo}
@@ -18,11 +18,11 @@ function Navbar({ menuOpen, setMenuOpen }) {
             className="d-inline-block align-text-top me-2 logo-img"
           />
           <a className="navbar-brand fw-bold text-primary fs-3 mb-0 brand-text">
-            TourBooker
+            EgyTrip
           </a>
         </div>
 
-        {/* Mobile Toggle Button */}
+       
         <button 
           className="navbar-toggler border-0 custom-toggler" 
           type="button" 
@@ -46,12 +46,12 @@ function Navbar({ menuOpen, setMenuOpen }) {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link custom-nav-link">
+              <a className="nav-link custom-nav-link" href='/about'>
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link custom-nav-link">
+              <a className="nav-link custom-nav-link" href='/contact'>
                 Contact
               </a>
             </li>

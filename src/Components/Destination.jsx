@@ -1,6 +1,6 @@
 import React from 'react';
 import {useState }from 'react';
-const destination = [
+const destinations = [
     {
         name:'Alexandria',
         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScYTqNYaP0uFUPsKSP3YV3WHSUYB7F9x4OuQ&s"
@@ -12,7 +12,7 @@ const destination = [
     {
         name: 'Aswan',
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2tnLSqU3R4U06orOEmEOKMgbeaE71MwO5HA&s"
-    }
+    },
     {
         name: 'Marsa Alam',
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFL0TuRkuTgBuLTVdLyfi2vFUcVS2oqJp-xw&s"
@@ -22,7 +22,7 @@ const destination = [
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCQM4vD6K2QUCd1Kq0ddvvM2SgyMvYIdY6zg&s"
     },
     {
-        name: 'Dahab'
+        name: 'Dahab',
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5O7Jby_-tnj04p-4FSD1msgfUSibTeby4lw&s"
 
     }
@@ -58,4 +58,4 @@ return (
     </div>
     </div>
 );
-}
+
