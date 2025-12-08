@@ -1,52 +1,17 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from '../Components/Navbar'
-// Navbar Component
-// const Navbar = () => {
-//   return (
-//     <nav className="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top">
-//       <div className="container-fluid px-4">
-//         <a className="navbar-brand d-flex align-items-center fw-bold fs-4" href="#">
-//           <div className="rounded-circle bg-info d-flex align-items-center justify-content-center me-2" 
-//                style={{ width: '40px', height: '40px' }}>
-//             <span className="text-white">🧭</span>
-//           </div>
-//           Touro
-//         </a>
-//         <div className="collapse navbar-collapse justify-content-center">
-//           <ul className="navbar-nav gap-4">
-//             <li className="nav-item">
-//               <a className="nav-link text-dark" href="#">Home</a>
-//             </li>
-//             <li className="nav-item">
-//               <a className="nav-link text-info fw-semibold" href="#">Destinations</a>
-//             </li>
-//             <li className="nav-item">
-//               <a className="nav-link text-dark" href="#">Deals</a>
-//             </li>
-//             <li className="nav-item">
-//               <a className="nav-link text-dark" href="#">About</a>
-//             </li>
-//           </ul>
-//         </div>
-//         <div className="rounded-circle bg-light d-flex align-items-center justify-content-center" 
-//              style={{ width: '45px', height: '45px', cursor: 'pointer' }}>
-//           <span>👤</span>
-//         </div>
-//       </div>
-//     </nav>
-//   );
-// };
+import Navbar from '../Components/Navbar.jsx';
 
-// Tour Card Component
 const TourCard = ({ tour }) => {
   return (
     <div className="card border-0 shadow-sm h-100" style={{ overflow: 'hidden' }}>
-      <img 
-        src={tour.image} 
-        className="card-img-top" 
+      <img
+        src={tour.img}
+        className="card-img-top"
         alt={tour.title}
-        style={{ height: '200px', objectFit: 'cover' }}
+       style={{ height: '90px', width: '100%', objectFit: 'cover' }}
+
+
       />
       <div className="card-body d-flex flex-column">
         <h5 className="card-title fw-bold mb-3">{tour.title}</h5>
@@ -89,7 +54,7 @@ const Sidebar = ({ filters, setFilters, onApplyFilters }) => {
           <input 
             type="text" 
             className="form-control border-start-0" 
-            placeholder="e.g., Paris"
+            placeholder="e.g., Cairo"
             value={filters.destination}
             onChange={(e) => setFilters({...filters, destination: e.target.value})}
           />
@@ -224,7 +189,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
         <li className="page-item">
           <button 
             className="page-link border-0 text-dark"
-            onClick={() => onPageChange(8)}
+            onClick={() => onPageChange(3)}
           >
             8
           </button>
@@ -243,66 +208,105 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
 };
 
 // Main Tours Listing Page
-const ToursListingPage = () => {
+const Destinations = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const [sortBy, setSortBy] = useState('Popularity');
   const [filters, setFilters] = useState({
     destination: '',
     tourTypes: ['Sightseeing', 'Culinary']
   });
-
-  const tours = [
-    {
-      id: 1,
-      title: 'Eiffel Tower Summit Experience',
-      price: 99,
-      rating: 4.8,
-      image: 'https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?w=400&h=300&fit=crop'
-    },
-    {
-      id: 2,
-      title: 'Alpine Peaks Hiking Adventure',
-      price: 120,
-      rating: 4.9,
-      image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=400&h=300&fit=crop'
-    },
-    {
-      id: 3,
-      title: 'Authentic Parisian Cooking Class',
-      price: 75,
-      rating: 4.7,
-      image: 'https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=400&h=300&fit=crop'
-    },
-    {
-      id: 4,
-      title: 'Louvre Museum Skip-the-Line Tour',
-      price: 65,
-      rating: 4.6,
-      image: 'https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=400&h=300&fit=crop'
-    },
-    {
-      id: 5,
-      title: 'Charming Montmartre Walking Tour',
-      price: 49,
-      rating: 4.9,
-      image: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=400&h=300&fit=crop'
-    },
-    {
-      id: 6,
-      title: 'Seine River Evening Cruise with Dinner',
-      price: 150,
-      rating: 4.8,
-      image: 'https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=400&h=300&fit=crop'
-    }
-  ];
+    const tours = [
+        {
+            id: 1,
+            title: 'Great Pyramids & Sphinx Adventure',
+            location: 'Giza',
+            price: 89,
+            rating: 5,
+            img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBZU0XOALx0zmUZsQNGDc2o5y7X240ZONPBw&s',
+            type: 'sightseeing'
+        },
+        {
+            id: 2,
+            title: 'Nile River Sunset Cruise',
+            location: 'Cairo',
+            price: 95,
+            rating: 4.8,
+            img: 'https://media.istockphoto.com/id/1399402370/photo/felucca-boats-on-nile-river-at-sunset.jpg?s=612x612&w=0&k=20&c=YLL_D5rQLgVea0-u-Q3sRqSKtteeR9vIZFOZ2JHXHfg=',
+            type: 'adventure'
+        },
+        {
+            id: 3,
+            title: 'Grand Egyptian Museum Tour',
+            location: 'Cairo',
+            price: 150,
+            rating: 5,
+            img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0tudT8TJp8ml5bAuXSDYkDpr5hh_AGONdiw&s',
+            type: 'culinary'
+        },
+        {
+            id: 4,
+            title: 'Luxor Temple & Valley of Kings',
+            location: 'Luxor',
+            price: 120,
+            rating: 4.9,
+            img: 'https://egyptunitedtours.com/wp-content/uploads/2024/11/Luxor-and-the-Valley-of-the-Kings.jpg',
+            type: 'sightseeing'
+        },
+        {
+            id: 5,
+            title: 'Red Sea Snorkeling Experience',
+            location: 'Marsa Alam',
+            price: 85,
+            rating: 4.8,
+            img: 'https://www.civitatis.com/f/egipto/marsa-alam/bautismo-buceo-snorkel-mar-rojo-589x392.jpg',
+            type: 'adventure'
+        },
+        {
+            id: 6,
+            title: 'Khan El Khalili Bazaar Walking Tour',
+            location: 'Cairo',
+            price: 45,
+            rating: 4.6,
+            img: 'https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=auto,quality=60,width=400,height=265,dpr=2/tour_img/871a5eef28a4bda2833be62006c502bb2e3ee1f0edb390c6c3074b874fbbf1f2.jpg',
+            type: 'cultural'
+        },
+        {
+            id: 7,
+            title: 'Alexandria Day Trip from Cairo',
+            location: 'Alexandria',
+            price: 110,
+            rating: 4.7,
+            img: 'https://www.marsaalamtours.com/data1/images/Day-tour-to-Alexandria-from-Cairo/3.jpg',
+            type: 'sightseeing'
+        },
+        {
+            id: 8,
+            title: 'Siwa Oasis Desert Safari',
+            location: 'Siwa',
+            price: 150,
+            rating: 4.9,
+            img: 'https://www.youregypttours.com/storage/490/1584904164.jpg',
+            type: 'adventure'
+        },
+        {
+            id: 9,
+            title: 'High Dam',
+            location: 'Aswan',
+            price: 110,
+            rating: 4.7,
+            img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0yyeys5WyLTli1WLSW8-WnbnK2CbXDEMO0Q&s',
+            type: 'sightseeing'
+        }
+    ];
 
   const handleApplyFilters = () => {
     console.log('Filters applied:', filters);
   };
 
   return (
-    <div style={{ backgroundColor: '#f8f9fa', minHeight: '100vh' }}>
-      <Navbar />
+    <div style={{ backgroundColor: '#edf0f3ff', minHeight: '100vh' }}>
+      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       
       <div className="container-fluid px-4 py-4">
         <div className="row">
@@ -320,7 +324,7 @@ const ToursListingPage = () => {
             {/* Header */}
             <div className="d-flex justify-content-between align-items-start mb-4">
               <div>
-                <h2 className="fw-bold mb-2">Paris: 32 Tours Found</h2>
+                <h2 className="fw-bold mb-2">Egypt: 9 Tours Found</h2>
                 <p className="text-muted">Explore adventures, culinary experiences, and sightseeing wonders.</p>
               </div>
               <div className="dropdown">
@@ -352,7 +356,7 @@ const ToursListingPage = () => {
             {/* Pagination */}
             <Pagination 
               currentPage={currentPage}
-              totalPages={8}
+              totalPages={3}
               onPageChange={setCurrentPage}
             />
           </div>
@@ -362,4 +366,4 @@ const ToursListingPage = () => {
   );
 };
 
-export default ToursListingPage;
+export default Destinations;

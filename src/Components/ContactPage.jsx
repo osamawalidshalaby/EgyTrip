@@ -6,6 +6,7 @@ import { MdMarkEmailUnread } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 
 export default function ContactPage() {
+  const [menuOpen, setMenuOpen] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -63,7 +64,7 @@ export default function ContactPage() {
 
   return (
     <div style={{ fontFamily: "'Poppins', sans-serif" }}>
-        <Navbar/>
+        <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div style={{
         background: 'linear-gradient(135deg, #667eea 0%,  #0b5ed7 100%)',
         color: 'white',

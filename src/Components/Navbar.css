@@ -1,5 +1,8 @@
+
+
 .custom-navbar {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-bottom: 2px solid rgb(38, 25, 113) !important;
 }
 
 .logo-img {
@@ -25,7 +28,7 @@
 }
 
 .custom-toggler:hover {
-    background-color: #f8f9fa !important;
+    background-color: rgb(232, 235, 237) !important;
     border-radius: 6px;
 }
 
@@ -99,4 +102,13 @@
     .custom-nav-link::after {
         display: none;
     }
+}
+/* Fix navbar not visible */
+.custom-navbar {
+    z-index: 9999 !important;
+}
+
+/* Make the toggler icon visible */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0,0,0,0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }

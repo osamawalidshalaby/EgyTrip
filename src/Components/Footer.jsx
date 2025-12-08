@@ -85,7 +85,7 @@ function Footer() {
         {/* Copyright */}
         <div className="row mt-4 pt-4 border-top">
           <div className="col text-center">
-            <p className="text-muted mb-0">© 2024 TourBooker. All rights reserved.</p>
+            <p className="text-muted mb-0">© 2025 TourBooker. All rights reserved.</p>
           </div>
         </div>
       </div>

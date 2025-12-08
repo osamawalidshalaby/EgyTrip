@@ -1,7 +1,7 @@
 import React from "react";
 import "./Destination.css"
 
-const destinations = [
+const destination = [
     {
         name: "Alexandria",
         image:
@@ -40,7 +40,7 @@ function Destination() {
         Explore Top Destinations
       </h2>
       <div className="destinations-container">
-        {destinations.map((dest, index) => (
+        {destination.map((dest, index) => (
           <div className="destination-card" key={index}>
             <img src={dest.image} alt={dest.name} />
             <h3>{dest.name}</h3>

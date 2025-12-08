@@ -1,25 +1,29 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import logo from '../assets/logo.png';
-import './Navbar.css'; 
+import './Navbar.css';
 
 function Navbar({ menuOpen, setMenuOpen }) {
+  console.log('Navbar rendered with menuOpen:', menuOpen);
   return (
-    <nav className="navbar navbar-expand-lg bg-white shadow-sm py-3 sticky-top custom-navbar">
+    <nav className="navbar navbar-expand-lg bg-white shadow-sm py-3 fixed-top custom-navbar">
       <div className="container">
     
         <div className="d-flex align-items-center">
-          <img
-            src={logo}
-            alt="TourBooker Logo"
-            width="40"
-            height="40"
-            className="d-inline-block align-text-top me-2 logo-img"
-          />
-          <a className="navbar-brand fw-bold text-primary fs-3 mb-0 brand-text">
-            EgyTrip
-          </a>
+          <NavLink to="/" className="d-flex align-items-center text-decoration-none">
+            <img
+              src={logo}
+              alt="TourBooker Logo"
+              width="40"
+              height="40"
+              className="d-inline-block align-text-top me-2 logo-img"
+            />
+            <span className="navbar-brand fw-bold text-primary fs-3 mb-0 brand-text">
+              EgyTrip
+            </span>
+          </NavLink>
         </div>
 
        
@@ -36,39 +40,44 @@ function Navbar({ menuOpen, setMenuOpen }) {
         <div className={`collapse navbar-collapse ${menuOpen ? "show" : ""}`}>
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
             <li className="nav-item">
-              <a className="nav-link custom-nav-link" href='/'>
+              <NavLink className="nav-link custom-nav-link" to='/' onClick={() => setMenuOpen(false)}>
                 Home
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link custom-nav-link" href='/destination'>
+              <NavLink className="nav-link custom-nav-link" to='/destinations' onClick={() => setMenuOpen(false)}>
                 Destinations
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link custom-nav-link" href='/about'>
+              <NavLink className="nav-link custom-nav-link" to="/guide-dashboard" onClick={() => setMenuOpen(false)}>Guide Dashboard
+              </NavLink>
+</li>
+
+            <li className="nav-item">
+              <NavLink className="nav-link custom-nav-link" to='/about' onClick={() => setMenuOpen(false)}>
                 About
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link custom-nav-link" href='/contact'>
+              <NavLink className="nav-link custom-nav-link" to='/contact' onClick={() => setMenuOpen(false)}>
                 Contact
-              </a>
+              </NavLink>
             </li>
           </ul>
           
           {/* Auth Buttons */}
           <div className="d-flex flex-column flex-lg-row gap-2 ms-lg-3 mt-3 mt-lg-0">
-            <a href="/user">
+            <NavLink to="/user" onClick={() => setMenuOpen(false)}>
               <button className="btn btn-outline-primary px-4 py-2 fw-medium custom-login-btn">
               Login
-            </button>
-            </a>
-            <a href="/user">
+              </button>
+            </NavLink>
+            <NavLink to="/user" onClick={() => setMenuOpen(false)}>
             <button className="btn btn-primary px-4 py-2 fw-medium custom-signup-btn">
               Sign Up
             </button>
-            </a>
+            </NavLink>
           </div>
         </div>
       </div>

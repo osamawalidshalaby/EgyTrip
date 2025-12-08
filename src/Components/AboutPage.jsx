@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from './Navbar.jsx';
 import { FaMap } from "react-icons/fa";
 import { MdPriceChange } from "react-icons/md";
 import { AiFillSafetyCertificate } from "react-icons/ai";
 
 export default function AboutPage() {
+  const [menuOpen, setMenuOpen] = useState(false);
   const tourGuides = [
     {
       name: "Ahmed Mahmoud",
@@ -56,7 +57,7 @@ export default function AboutPage() {
 
   return (
     <div style={{ fontFamily: "'Poppins', sans-serif" }}>
-        <Navbar/>
+        <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div style={{
         background: 'linear-gradient(135deg, #667eea 0%, #0b5ed7 100%)',
         color: 'white',

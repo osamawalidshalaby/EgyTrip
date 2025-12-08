@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Navbar from '../Components/Navbar.jsx'
+import Navbar from '../Components/Navbar.jsx';
 import HeroSection from '../Components/HeroSection.jsx'
 import PopularTours from '../Components/PopularTours.jsx'
 import Testimonials from '../Components/Testimonials.jsx'
@@ -10,10 +10,10 @@ function Home() {
    const [menuOpen, setMenuOpen] = useState(false);
 
   const tours = [
-    { id: 1, title: 'Paris Sightseeing Adventure', price: '$200', rating: 4.8, img: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=400' },
-    { id: 2, title: 'Ancient City Cultural Tour', price: '$350', rating: 4.9, img: 'https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=400' },
-    { id: 3, title: 'Crystal Beach Exploration', price: '$180', rating: 4.7, img: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400' },
-    { id: 4, title: 'Mountain Trail Hiking', price: '$250', rating: 4.6, img: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400' }
+    { id: 1, title: 'Giza Pyramids', price: '$200', rating: 4.8, img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBZU0XOALx0zmUZsQNGDc2o5y7X240ZONPBw&s' },
+    { id: 2, title: 'Salah ElDin-Citadel', price: '$350', rating: 4.9, img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSovsJiiqS5KzkOQszxzvJ-OV7_RoeiZy18jA&s' },
+    { id: 3, title: 'Cairo Tower', price: '$180', rating: 4.7, img: 'https://www.egypttoursportal.com/images/2021/04/Cairo-Tower-Egypt-Tours-Portal-1.jpg' },
+    { id: 4, title: 'Moaz-Street', price: '$250', rating: 4.6, img: 'https://lh5.googleusercontent.com/proxy/8jxwP2tE1JRAB98tXb7plB0ZHRwjLs-9FzMpwuFfy2FN8x7zKfsaN98XT73S6DfuIqMSBEdRCcWHgnApinj934ZO3Q4VLlpSINhyB5RR' }
   ];
 
   const testimonials = [
@@ -34,4 +34,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home;
