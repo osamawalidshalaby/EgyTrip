@@ -1,0 +1,114 @@
+
+
+.custom-navbar {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-bottom: 2px solid rgb(38, 25, 113) !important;
+}
+
+.logo-img {
+    transition: transform 0.3s ease;
+}
+
+.logo-img:hover {
+    transform: scale(1.1);
+}
+
+.brand-text {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.brand-text:hover {
+    color: #0b5ed7 !important;
+}
+
+.custom-toggler {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.custom-toggler:hover {
+    background-color: rgb(232, 235, 237) !important;
+    border-radius: 6px;
+}
+
+.custom-nav-link {
+    cursor: pointer;
+    font-weight: 500;
+    color: #212529 !important;
+    padding: 8px 16px !important;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.custom-nav-link:hover {
+    color: #0d6efd !important;
+    background-color: #f8f9fa;
+    transform: translateY(-1px);
+}
+
+.custom-nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #0d6efd;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.custom-nav-link:hover::after {
+    width: 80%;
+}
+
+.custom-login-btn {
+    cursor: pointer;
+    border: 2px solid #0d6efd;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.custom-login-btn:hover {
+    background-color: #0d6efd;
+    color: white !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(13, 110, 253, 0.2);
+}
+
+.custom-signup-btn {
+    cursor: pointer;
+    border: 2px solid #0d6efd;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.custom-signup-btn:hover {
+    background-color: #0b5ed7;
+    border-color: #0b5ed7;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(13, 110, 253, 0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 991.98px) {
+    .custom-nav-link {
+        text-align: center;
+        margin: 4px 0;
+    }
+
+    .custom-nav-link::after {
+        display: none;
+    }
+}
+/* Fix navbar not visible */
+.custom-navbar {
+    z-index: 9999 !important;
+}
+
+/* Make the toggler icon visible */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0,0,0,0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}

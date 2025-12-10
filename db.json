@@ -1,0 +1,1036 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "osama_walid",
+      "email": "osama.walid@gmail.com",
+      "password": "password123",
+      "role": "user",
+      "name": "Osama Walid",
+      "phone": "01010654258",
+      "country": "Egypt",
+      "avatar": "👤",
+      "joinedDate": "2023-01-15",
+      "bio": "Travel enthusiast exploring Egypt's wonders"
+    },
+    {
+      "id": "2",
+      "username": "ahmed_mahmoud",
+      "email": "ahmed.mahmoud@guide.com",
+      "password": "guide123",
+      "role": "guide",
+      "name": "Ahmed Mahmoud",
+      "phone": "01012345678",
+      "country": "Egypt",
+      "specialty": "Cairo & Giza",
+      "experience": "10 years",
+      "price": 500,
+      "img": "https://media.istockphoto.com/id/855413388/photo/theres-so-much-to-see.jpg?s=612x612&w=0&k=20&c=0pYgKJ46BH8ziQ31CMEQFSNNcvJ5P1RIwiKMHNWDr1A=",
+      "rating": 4.9,
+      "languages": [
+        "Arabic",
+        "English",
+        "French"
+      ],
+      "bio": "Certified Egyptologist with 10+ years experience",
+      "toursCompleted": 450,
+      "availability": true
+    },
+    {
+      "id": "3",
+      "username": "sara_abdullah",
+      "email": "sara.abdullah@guide.com",
+      "password": "guide123",
+      "role": "guide",
+      "name": "Sara Abdullah",
+      "phone": "01023456789",
+      "country": "Egypt",
+      "specialty": "Alexandria",
+      "experience": "7 years",
+      "price": 450,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIWOtT37vuKAIGPQO3zEeAo4vLdLWS_NiSFg&s",
+      "rating": 4.8,
+      "languages": [
+        "Arabic",
+        "English"
+      ],
+      "bio": "Alexandria expert with deep historical knowledge",
+      "toursCompleted": 320,
+      "availability": true
+    },
+    {
+      "id": "4",
+      "username": "mohamed_hassan",
+      "email": "mohamed.hassan@guide.com",
+      "password": "guide123",
+      "role": "guide",
+      "name": "Mohamed Hassan",
+      "phone": "01034567890",
+      "country": "Egypt",
+      "specialty": "Luxor & Aswan",
+      "experience": "12 years",
+      "price": 600,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC5wr92r0RAXClAUIxNORNFJN7eONZ3h-wfw&s",
+      "rating": 5,
+      "languages": [
+        "Arabic",
+        "English",
+        "Spanish"
+      ],
+      "bio": "Nile Valley specialist with archaeology background",
+      "toursCompleted": 580,
+      "availability": true
+    },
+    {
+      "id": "5",
+      "username": "nourhan_ali",
+      "email": "nourhan.ali@guide.com",
+      "password": "guide123",
+      "role": "guide",
+      "name": "Nourhan Ali",
+      "phone": "01045678901",
+      "country": "Egypt",
+      "specialty": "Sharm El-Sheikh",
+      "experience": "8 years",
+      "price": 550,
+      "img": "https://d3dqioy2sca31t.cloudfront.net/Projects/cms/production/000/039/128/medium/ff67fc24817aa0f0f8efb70ebf335ca8/tile-guide-ioanna-papakosta.jpg",
+      "rating": 4.9,
+      "languages": [
+        "Arabic",
+        "English",
+        "Russian"
+      ],
+      "bio": "Red Sea adventure specialist",
+      "toursCompleted": 380,
+      "availability": true
+    },
+    {
+      "id": "6",
+      "username": "fatima_ahmed",
+      "email": "fatima@example.com",
+      "password": "user123",
+      "role": "user",
+      "name": "Fatima Ahmed",
+      "phone": "01056789012",
+      "country": "Saudi Arabia",
+      "avatar": "👩",
+      "joinedDate": "2023-03-20",
+      "bio": "Cultural explorer visiting Egypt for the first time"
+    },
+    {
+      "id": "7",
+      "username": "john_smith",
+      "email": "john.smith@example.com",
+      "password": "user123",
+      "role": "user",
+      "name": "John Smith",
+      "phone": "+447700123456",
+      "country": "United Kingdom",
+      "avatar": "🧔",
+      "joinedDate": "2023-05-10",
+      "bio": "History teacher fascinated by ancient Egypt"
+    },
+    {
+      "id": "8",
+      "username": "maria_garcia",
+      "email": "maria.garcia@example.com",
+      "password": "user123",
+      "role": "user",
+      "name": "Maria Garcia",
+      "phone": "+34600123456",
+      "country": "Spain",
+      "avatar": "👩‍🦰",
+      "joinedDate": "2023-07-15",
+      "bio": "Photographer capturing Egypt's beauty"
+    },
+    {
+      "id": "9",
+      "name": "osama walid",
+      "email": "admin@bazzom.com",
+      "username": "walid",
+      "password": "123123",
+      "phone": "01010654258",
+      "country": "Egypt",
+      "role": "user",
+      "avatar": "👤",
+      "joinedDate": "2025-12-10",
+      "bio": "Travel enthusiast"
+    },
+    {
+      "id": "10",
+      "name": "dgdfgd",
+      "email": "aadmin@bazzom.com",
+      "username": "csdfcsd",
+      "password": "123123",
+      "phone": "01010654258",
+      "country": "Egypt",
+      "role": "guide",
+      "avatar": "👤",
+      "joinedDate": "2025-12-10",
+      "bio": "Professional tour guide"
+    },
+    {
+      "id": "11",
+      "name": "sdvsdv",
+      "email": "osmsa@gmail.com",
+      "username": "sdvsdv",
+      "password": "123123",
+      "phone": "01010654258",
+      "country": "Egypt",
+      "role": "guide",
+      "avatar": "👤",
+      "joinedDate": "2025-12-10",
+      "bio": "Professional tour guide"
+    }
+  ],
+  "tours": [
+    {
+      "id": "1",
+      "title": "Great Pyramids & Sphinx Adventure",
+      "location": "Giza, Egypt",
+      "price": 89,
+      "rating": 5,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBZU0XOALx0zmUZsQNGDc2o5y7X240ZONPBw&s",
+      "type": "sightseeing",
+      "duration": "8 hours",
+      "description": "Experience the majesty of the only remaining wonder of the ancient world. Walk around the Great Pyramid of Khufu, see the Sphinx up close, and explore the Valley Temple.",
+      "highlights": [
+        "Skip-the-line access to Giza Plateau",
+        "Camel ride around the pyramids",
+        "Sound and Light Show option",
+        "Professional Egyptologist guide"
+      ],
+      "includes": [
+        "Entrance fees",
+        "Hotel pickup/dropoff",
+        "Lunch",
+        "Bottled water"
+      ],
+      "groupSize": "15 people max",
+      "meetingPoint": "Your hotel in Cairo or Giza"
+    },
+    {
+      "id": "2",
+      "title": "Nile River Sunset Cruise",
+      "location": "Cairo, Egypt",
+      "price": 95,
+      "rating": 4.8,
+      "img": "https://media.istockphoto.com/id/1399402370/photo/felucca-boats-on-nile-river-at-sunset.jpg?s=612x612&w=0&k=20&c=YLL_D5rQLgVea0-u-Q3sRqSKtteeR9vIZFOZ2JHXHfg=",
+      "type": "adventure",
+      "duration": "4 hours",
+      "description": "Sail along the Nile River on a traditional felucca as the sun sets over Cairo. Enjoy Egyptian cuisine, live music, and breathtaking views of the city skyline.",
+      "highlights": [
+        "Traditional Egyptian dinner on board",
+        "Live Sufi music performance",
+        "Views of Cairo Tower and bridges",
+        "Sunset photography opportunities"
+      ],
+      "includes": [
+        "Dinner",
+        "Drinks",
+        "Live entertainment",
+        "Hotel transfer"
+      ],
+      "groupSize": "20 people max",
+      "meetingPoint": "Nile Corniche, Cairo"
+    },
+    {
+      "id": "3",
+      "title": "Grand Egyptian Museum Tour",
+      "location": "Cairo, Egypt",
+      "price": 150,
+      "rating": 5,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0tudT8TJp8ml5bAuXSDYkDpr5hh_AGONdiw&s",
+      "type": "cultural",
+      "duration": "6 hours",
+      "description": "Explore the world's largest archaeological museum dedicated to a single civilization. See the complete Tutankhamun collection and thousands of artifacts.",
+      "highlights": [
+        "Tutankhamun's golden mask and treasures",
+        "Royal mummies hall",
+        "Virtual reality experiences",
+        "Panoramic view of pyramids"
+      ],
+      "includes": [
+        "Museum tickets",
+        "Expert guide",
+        "Audio guide",
+        "Coffee break"
+      ],
+      "groupSize": "12 people max",
+      "meetingPoint": "Grand Egyptian Museum entrance"
+    },
+    {
+      "id": "4",
+      "title": "Luxor Temple & Valley of Kings",
+      "location": "Luxor, Egypt",
+      "price": 120,
+      "rating": 4.9,
+      "img": "https://egyptunitedtours.com/wp-content/uploads/2024/11/Luxor-and-the-Valley-of-the-Kings.jpg",
+      "type": "historical",
+      "duration": "10 hours",
+      "description": "Journey through ancient Thebes. Visit the magnificent Luxor Temple, explore the Valley of the Kings, and see the impressive Colossi of Memnon.",
+      "highlights": [
+        "Tomb of Tutankhamun",
+        "Temple of Hatshepsut",
+        "Colossi of Memnon",
+        "Hot air balloon ride option"
+      ],
+      "includes": [
+        "All entrance fees",
+        "Lunch",
+        "Air-conditioned transport",
+        "Egyptologist guide"
+      ],
+      "groupSize": "10 people max",
+      "meetingPoint": "Luxor hotels or airport"
+    },
+    {
+      "id": "5",
+      "title": "Red Sea Snorkeling Experience",
+      "location": "Marsa Alam, Egypt",
+      "price": 85,
+      "rating": 4.8,
+      "img": "https://www.civitatis.com/f/egipto/marsa-alam/bautismo-buceo-snorkel-mar-rojo-589x392.jpg",
+      "type": "adventure",
+      "duration": "5 hours",
+      "description": "Discover the underwater wonders of the Red Sea. Swim with colorful fish, see vibrant coral reefs, and explore marine life in crystal clear waters.",
+      "highlights": [
+        "Three different snorkeling spots",
+        "Dolphin watching",
+        "Underwater photography",
+        "Beach lunch"
+      ],
+      "includes": [
+        "Snorkeling gear",
+        "Lunch",
+        "Boat trip",
+        "Guide/instructor"
+      ],
+      "groupSize": "15 people max",
+      "meetingPoint": "Marsa Alam hotels or marina"
+    },
+    {
+      "id": "6",
+      "title": "Khan El Khalili Bazaar Walking Tour",
+      "location": "Cairo, Egypt",
+      "price": 45,
+      "rating": 4.6,
+      "img": "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=auto,quality=60,width=400,height=265,dpr=2/tour_img/871a5eef28a4bda2833be62006c502bb2e3ee1f0edb390c6c3074b874fbbf1f2.jpg",
+      "type": "shopping",
+      "duration": "3 hours",
+      "description": "Immerse yourself in Cairo's most famous market. Learn bargaining techniques, smell exotic spices, and shop for authentic Egyptian souvenirs.",
+      "highlights": [
+        "Spice market visit",
+        "Traditional coffee shop experience",
+        "Silver and gold jewelry shops",
+        "Fabric and perfume stores"
+      ],
+      "includes": [
+        "Local guide",
+        "Arabic coffee",
+        "Shopping assistance"
+      ],
+      "groupSize": "8 people max",
+      "meetingPoint": "Al-Hussein Mosque, Cairo"
+    },
+    {
+      "id": "7",
+      "title": "Alexandria Day Trip from Cairo",
+      "location": "Alexandria, Egypt",
+      "price": 110,
+      "rating": 4.7,
+      "img": "https://www.marsaalamtours.com/data1/images/Day-tour-to-Alexandria-from-Cairo/3.jpg",
+      "type": "sightseeing",
+      "duration": "12 hours",
+      "description": "Visit the Mediterranean jewel of Egypt. See the modern library, explore Qaitbay Citadel, and walk along the beautiful Corniche.",
+      "highlights": [
+        "Bibliotheca Alexandrina",
+        "Catacombs of Kom El Shoqafa",
+        "Montaza Palace gardens",
+        "Fresh seafood lunch"
+      ],
+      "includes": [
+        "Private car",
+        "Entrance fees",
+        "Lunch",
+        "Guide"
+      ],
+      "groupSize": "4 people max",
+      "meetingPoint": "Cairo hotels"
+    },
+    {
+      "id": "8",
+      "title": "Siwa Oasis Desert Safari",
+      "location": "Siwa Oasis, Egypt",
+      "price": 150,
+      "rating": 4.9,
+      "img": "https://www.youregypttours.com/storage/490/1584904164.jpg",
+      "type": "adventure",
+      "duration": "2 days",
+      "description": "Experience the magic of Egypt's western desert. Visit salt lakes, sleep under the stars, and explore ancient ruins in this remote oasis.",
+      "highlights": [
+        "Cleopatra's Bath",
+        "Great Sand Sea dunes",
+        "Traditional Siwan dinner",
+        "Stargazing experience"
+      ],
+      "includes": [
+        "4x4 transportation",
+        "Desert camp accommodation",
+        "All meals",
+        "Bedouin guide"
+      ],
+      "groupSize": "6 people max",
+      "meetingPoint": "Siwa town center"
+    },
+    {
+      "id": "9",
+      "title": "High Dam & Philae Temple",
+      "location": "Aswan, Egypt",
+      "price": 110,
+      "rating": 4.7,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0yyeys5WyLTli1WLSW8-WnbnK2CbXDEMO0Q&s",
+      "type": "historical",
+      "duration": "7 hours",
+      "description": "Discover Aswan's engineering marvels and ancient temples. See the High Dam, visit the beautiful Philae Temple, and learn about Nubian culture.",
+      "highlights": [
+        "High Dam construction story",
+        "Boat to Philae Island",
+        "Unfinished Obelisk",
+        "Nubian village visit"
+      ],
+      "includes": [
+        "Boat fees",
+        "Entrance tickets",
+        "Guide",
+        "Transportation"
+      ],
+      "groupSize": "12 people max",
+      "meetingPoint": "Aswan hotels or cruise ships"
+    },
+    {
+      "id": "10",
+      "title": "White Desert Camping",
+      "location": "Farafra, Egypt",
+      "price": 200,
+      "rating": 5,
+      "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f8/ef/white-desert.jpg",
+      "type": "adventure",
+      "duration": "2 days",
+      "description": "Camp among surreal white chalk formations that look like another planet. Experience Bedouin hospitality and watch amazing desert sunsets.",
+      "highlights": [
+        "Crystal Mountain",
+        "Aqabat Valley",
+        "Hot springs",
+        "Traditional Bedouin music"
+      ],
+      "includes": [
+        "Camping equipment",
+        "All meals",
+        "4x4 transportation",
+        "Bedouin guides"
+      ],
+      "groupSize": "8 people max",
+      "meetingPoint": "Cairo or Bahariya Oasis"
+    },
+    {
+      "id": "11",
+      "title": "Egyptian Cooking Class",
+      "location": "Cairo, Egypt",
+      "price": 65,
+      "rating": 4.8,
+      "img": "https://www.cookingclassesegypt.com/wp-content/uploads/2019/04/cairo-cooking-class.jpg",
+      "type": "culinary",
+      "duration": "4 hours",
+      "description": "Learn to cook authentic Egyptian dishes in a local home. Prepare koshari, molokhia, and end with traditional desserts.",
+      "highlights": [
+        "Visit local market for ingredients",
+        "Hands-on cooking experience",
+        "Recipe booklet",
+        "Eat what you cook"
+      ],
+      "includes": [
+        "All ingredients",
+        "Recipe book",
+        "Meal",
+        "Certificate"
+      ],
+      "groupSize": "6 people max",
+      "meetingPoint": "Downtown Cairo"
+    },
+    {
+      "id": "12",
+      "title": "Mount Sinai Sunrise Hike",
+      "location": "Sinai, Egypt",
+      "price": 90,
+      "rating": 4.9,
+      "img": "https://www.tripsinegypt.com/wp-content/uploads/2019/07/Mount-Sinai-Egypt-Tours.jpg",
+      "type": "adventure",
+      "duration": "10 hours",
+      "description": "Hike to the summit of Mount Sinai to witness a spectacular sunrise. Visit St. Catherine's Monastery and learn biblical history.",
+      "highlights": [
+        "Sunrise from 2285m summit",
+        "St. Catherine's Monastery",
+        "Burning Bush",
+        "Camel ride option"
+      ],
+      "includes": [
+        "Bedouin guide",
+        "Breakfast",
+        "Entrance fees",
+        "Transport"
+      ],
+      "groupSize": "15 people max",
+      "meetingPoint": "Sharm El Sheikh or Dahab hotels"
+    }
+  ],
+  "guides": [
+    {
+      "id": "1",
+      "name": "Ahmed Mahmoud",
+      "specialty": "Cairo & Giza",
+      "experience": "10 years",
+      "price": 500,
+      "img": "https://media.istockphoto.com/id/855413388/photo/theres-so-much-to-see.jpg?s=612x612&w=0&k=20&c=0pYgKJ46BH8ziQ31CMEQFSNNcvJ5P1RIwiKMHNWDr1A=",
+      "rating": 4.9,
+      "reviews": 245,
+      "languages": [
+        "Arabic",
+        "English",
+        "French"
+      ],
+      "description": "Certified Egyptologist with PhD in Ancient History. Specialized in Pyramids and Old Cairo tours.",
+      "availability": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Sat"
+      ],
+      "tours": [
+        "1",
+        "3",
+        "6",
+        "7"
+      ],
+      "certifications": [
+        "Egyptologist License",
+        "Tour Guide Certificate",
+        "First Aid Certified"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Sara Abdullah",
+      "specialty": "Alexandria",
+      "experience": "7 years",
+      "price": 450,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIWOtT37vuKAIGPQO3zEeAo4vLdLWS_NiSFg&s",
+      "rating": 4.8,
+      "reviews": 178,
+      "languages": [
+        "Arabic",
+        "English"
+      ],
+      "description": "Alexandria native with deep knowledge of Greco-Roman history and Mediterranean culture.",
+      "availability": [
+        "Mon",
+        "Wed",
+        "Fri",
+        "Sun"
+      ],
+      "tours": [
+        "7"
+      ],
+      "certifications": [
+        "History Degree",
+        "Tour Guide License"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Mohamed Hassan",
+      "specialty": "Luxor & Aswan",
+      "experience": "12 years",
+      "price": 600,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC5wr92r0RAXClAUIxNORNFJN7eONZ3h-wfw&s",
+      "rating": 5,
+      "reviews": 312,
+      "languages": [
+        "Arabic",
+        "English",
+        "Spanish"
+      ],
+      "description": "Nile Valley expert with archaeology background. Worked on multiple excavation sites.",
+      "availability": [
+        "Tue",
+        "Thu",
+        "Fri",
+        "Sat",
+        "Sun"
+      ],
+      "tours": [
+        "4",
+        "9"
+      ],
+      "certifications": [
+        "Archaeology MA",
+        "Egyptologist",
+        "Nile Guide Specialist"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Nourhan Ali",
+      "specialty": "Sharm El-Sheikh & Red Sea",
+      "experience": "8 years",
+      "price": 550,
+      "img": "https://d3dqioy2sca31t.cloudfront.net/Projects/cms/production/000/039/128/medium/ff67fc24817aa0f0f8efb70ebf335ca8/tile-guide-ioanna-papakosta.jpg",
+      "rating": 4.9,
+      "reviews": 189,
+      "languages": [
+        "Arabic",
+        "English",
+        "Russian"
+      ],
+      "description": "Marine biologist turned tour guide. Expert in Red Sea ecosystems and desert adventures.",
+      "availability": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat",
+        "Sun"
+      ],
+      "tours": [
+        "5",
+        "12"
+      ],
+      "certifications": [
+        "Marine Biology Degree",
+        "Diving Instructor",
+        "Desert Guide"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Omar Farouk",
+      "specialty": "Desert Safaris",
+      "experience": "15 years",
+      "price": 700,
+      "img": "https://www.nationalgeographic.com/content/dam/expeditions/destinations/africa/egypt/egypt-private-guide-omar-salama.jpg",
+      "rating": 4.9,
+      "reviews": 420,
+      "languages": [
+        "Arabic",
+        "English",
+        "German"
+      ],
+      "description": "Bedouin guide with generations of desert knowledge. Expert in Western Desert and Sinai.",
+      "availability": [
+        "Mon",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat"
+      ],
+      "tours": [
+        "8",
+        "10",
+        "12"
+      ],
+      "certifications": [
+        "Desert Survival Expert",
+        "4x4 Driving Instructor",
+        "First Responder"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Layla Mostafa",
+      "specialty": "Culinary & Cultural Tours",
+      "experience": "5 years",
+      "price": 400,
+      "img": "https://images.squarespace-cdn.com/content/v1/5b8d9585f407b4d75e68a5a2/1557176681462-WN5YR5VFWNO9M4DY3JZW/image-asset.jpeg",
+      "rating": 4.7,
+      "reviews": 96,
+      "languages": [
+        "Arabic",
+        "English",
+        "Italian"
+      ],
+      "description": "Food historian and cooking instructor. Makes Egyptian culture accessible through cuisine.",
+      "availability": [
+        "Tue",
+        "Wed",
+        "Thu",
+        "Sat"
+      ],
+      "tours": [
+        "6",
+        "11"
+      ],
+      "certifications": [
+        "Culinary Arts Diploma",
+        "Food Safety Certificate"
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "userId": "1",
+      "tourId": "1",
+      "guideId": "1",
+      "tourTitle": "Great Pyramids & Sphinx Adventure",
+      "guideName": "Ahmed Mahmoud",
+      "date": "2024-12-15",
+      "numberOfPeople": 2,
+      "tourPrice": 89,
+      "guidePrice": 500,
+      "totalPrice": 678,
+      "bookingDate": "2024-11-10",
+      "status": "confirmed",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBZU0XOALx0zmUZsQNGDc2o5y7X240ZONPBw&s",
+      "location": "Giza, Egypt",
+      "type": "sightseeing",
+      "description": "Private tour of Giza Pyramids with Egyptologist guide",
+      "meetingPoint": "Hotel lobby at 8:00 AM",
+      "specialRequests": "Vegetarian lunch required"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "tourId": "2",
+      "guideId": "4",
+      "tourTitle": "Nile River Sunset Cruise",
+      "guideName": "Nourhan Ali",
+      "date": "2024-11-28",
+      "numberOfPeople": 4,
+      "tourPrice": 95,
+      "guidePrice": 550,
+      "totalPrice": 930,
+      "bookingDate": "2024-11-05",
+      "status": "upcoming",
+      "image": "https://media.istockphoto.com/id/1399402370/photo/felucca-boats-on-nile-river-at-sunset.jpg?s=612x612&w=0&k=20&c=YLL_D5rQLgVea0-u-Q3sRqSKtteeR9vIZFOZ2JHXHfg=",
+      "location": "Cairo, Egypt",
+      "type": "adventure",
+      "description": "Sunset dinner cruise on the Nile with entertainment",
+      "meetingPoint": "Nile Corniche at 5:30 PM",
+      "specialRequests": "Birthday celebration arrangement"
+    },
+    {
+      "id": "3",
+      "userId": "1",
+      "tourId": "4",
+      "guideId": "3",
+      "tourTitle": "Luxor Temple & Valley of Kings",
+      "guideName": "Mohamed Hassan",
+      "date": "2024-10-26",
+      "numberOfPeople": 1,
+      "tourPrice": 120,
+      "guidePrice": 600,
+      "totalPrice": 720,
+      "bookingDate": "2024-09-15",
+      "status": "past",
+      "image": "https://egyptunitedtours.com/wp-content/uploads/2024/11/Luxor-and-the-Valley-of-the-Kings.jpg",
+      "location": "Luxor, Egypt",
+      "type": "historical",
+      "description": "Full-day Luxor tour with private guide",
+      "rating": 5,
+      "review": "Amazing experience! Mohamed was incredibly knowledgeable."
+    },
+    {
+      "id": "4",
+      "userId": "6",
+      "tourId": "5",
+      "guideId": "4",
+      "tourTitle": "Red Sea Snorkeling Experience",
+      "guideName": "Nourhan Ali",
+      "date": "2024-12-05",
+      "numberOfPeople": 3,
+      "tourPrice": 85,
+      "guidePrice": 550,
+      "totalPrice": 805,
+      "bookingDate": "2024-11-20",
+      "status": "upcoming",
+      "image": "https://www.civitatis.com/f/egipto/marsa-alam/bautismo-buceo-snorkel-mar-rojo-589x392.jpg",
+      "location": "Marsa Alam, Egypt",
+      "type": "adventure",
+      "description": "Snorkeling adventure in the Red Sea"
+    },
+    {
+      "id": "5",
+      "userId": "7",
+      "tourId": "3",
+      "guideId": "1",
+      "tourTitle": "Grand Egyptian Museum Tour",
+      "guideName": "Ahmed Mahmoud",
+      "date": "2024-09-15",
+      "numberOfPeople": 2,
+      "tourPrice": 150,
+      "guidePrice": 500,
+      "totalPrice": 800,
+      "bookingDate": "2024-08-10",
+      "status": "past",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0tudT8TJp8ml5bAuXSDYkDpr5hh_AGONdiw&s",
+      "location": "Cairo, Egypt",
+      "type": "cultural",
+      "rating": 4,
+      "review": "Great museum but quite crowded in the morning."
+    },
+    {
+      "id": "6",
+      "userId": "1",
+      "tourId": "8",
+      "guideId": "5",
+      "tourTitle": "Siwa Oasis Desert Safari",
+      "guideName": "Omar Farouk",
+      "date": "2025-01-20",
+      "numberOfPeople": 2,
+      "tourPrice": 150,
+      "guidePrice": 700,
+      "totalPrice": 1000,
+      "bookingDate": "2024-11-25",
+      "status": "upcoming",
+      "image": "https://www.youregypttours.com/storage/490/1584904164.jpg",
+      "location": "Siwa Oasis, Egypt",
+      "type": "adventure",
+      "description": "2-day desert camping experience"
+    },
+    {
+      "id": "7",
+      "userId": "8",
+      "tourId": "11",
+      "guideId": "6",
+      "tourTitle": "Egyptian Cooking Class",
+      "guideName": "Layla Mostafa",
+      "date": "2024-12-10",
+      "numberOfPeople": 1,
+      "tourPrice": 65,
+      "guidePrice": 400,
+      "totalPrice": 465,
+      "bookingDate": "2024-11-28",
+      "status": "upcoming",
+      "image": "https://www.cookingclassesegypt.com/wp-content/uploads/2019/04/cairo-cooking-class.jpg",
+      "location": "Cairo, Egypt",
+      "type": "culinary"
+    },
+    {
+      "id": "1765392659154",
+      "userId": "9",
+      "tourId": "1",
+      "guideId": "2",
+      "tourTitle": "Great Pyramids & Sphinx Adventure",
+      "guideName": "Sara Abdullah",
+      "date": "2025-12-15",
+      "numberOfPeople": 2,
+      "tourPrice": 89,
+      "guidePrice": 450,
+      "totalPrice": 628,
+      "bookingDate": "2025-12-10",
+      "status": "cancelled",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBZU0XOALx0zmUZsQNGDc2o5y7X240ZONPBw&s",
+      "location": "Giza, Egypt",
+      "type": "sightseeing",
+      "description": "Booking for Great Pyramids & Sphinx Adventure with Sara Abdullah"
+    },
+    {
+      "id": "1765393111034",
+      "userId": "9",
+      "tourId": "1",
+      "guideId": "6",
+      "tourTitle": "Great Pyramids & Sphinx Adventure",
+      "guideName": "Layla Mostafa",
+      "date": "2026-01-04",
+      "numberOfPeople": 4,
+      "tourPrice": 89,
+      "guidePrice": 400,
+      "totalPrice": 756,
+      "bookingDate": "2025-12-10",
+      "status": "upcoming",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBZU0XOALx0zmUZsQNGDc2o5y7X240ZONPBw&s",
+      "location": "Giza, Egypt",
+      "type": "sightseeing",
+      "description": "Booking for Great Pyramids & Sphinx Adventure with Layla Mostafa"
+    },
+    {
+      "id": "1956",
+      "title": "Tour with Mohamed Hassan",
+      "date": "12/10/2025",
+      "location": "Luxor & Aswan",
+      "status": "upcoming",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC5wr92r0RAXClAUIxNORNFJN7eONZ3h-wfw&s",
+      "description": "Booked a tour with Mohamed Hassan, specialized in Luxor & Aswan"
+    },
+    {
+      "id": "1765395182160",
+      "userId": "10",
+      "tourId": "1",
+      "guideId": "4",
+      "tourTitle": "Great Pyramids & Sphinx Adventure",
+      "guideName": "Nourhan Ali",
+      "date": "2025-12-23",
+      "numberOfPeople": 2,
+      "tourPrice": 89,
+      "guidePrice": 550,
+      "totalPrice": 728,
+      "bookingDate": "2025-12-10",
+      "status": "upcoming",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBZU0XOALx0zmUZsQNGDc2o5y7X240ZONPBw&s",
+      "location": "Giza, Egypt",
+      "type": "sightseeing",
+      "description": "Booking for Great Pyramids & Sphinx Adventure with Nourhan Ali"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "userId": "1",
+      "userName": "Osama Walid",
+      "tourId": "1",
+      "tourTitle": "Great Pyramids & Sphinx Adventure",
+      "rating": 5,
+      "comment": "Absolutely breathtaking experience! Our guide Ahmed was incredibly knowledgeable and made the history come alive. The camel ride at sunset was unforgettable.",
+      "date": "2024-10-15",
+      "guideId": "1",
+      "guideName": "Ahmed Mahmoud",
+      "guideRating": 5
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "userName": "Osama Walid",
+      "tourId": "4",
+      "tourTitle": "Luxor Temple & Valley of Kings",
+      "rating": 5,
+      "comment": "Mohamed was an excellent guide. His expertise in Egyptology made the tombs and temples much more meaningful. Highly recommend!",
+      "date": "2024-10-30",
+      "guideId": "3",
+      "guideName": "Mohamed Hassan",
+      "guideRating": 5
+    },
+    {
+      "id": "3",
+      "userId": "7",
+      "userName": "John Smith",
+      "tourId": "3",
+      "tourTitle": "Grand Egyptian Museum Tour",
+      "rating": 4,
+      "comment": "The museum is spectacular, but it was very crowded in the morning. Our guide Ahmed did a great job navigating through the crowds.",
+      "date": "2024-09-20",
+      "guideId": "1",
+      "guideName": "Ahmed Mahmoud",
+      "guideRating": 5
+    },
+    {
+      "id": "4",
+      "userId": "6",
+      "userName": "Fatima Ahmed",
+      "tourId": "2",
+      "tourTitle": "Nile River Sunset Cruise",
+      "rating": 5,
+      "comment": "Romantic and beautiful experience. The food was delicious and the Sufi music was magical. Perfect way to see Cairo from the river.",
+      "date": "2024-08-12",
+      "guideId": "4",
+      "guideName": "Nourhan Ali",
+      "guideRating": 5
+    },
+    {
+      "id": "5",
+      "userId": "8",
+      "userName": "Maria Garcia",
+      "tourId": "6",
+      "tourTitle": "Khan El Khalili Bazaar Walking Tour",
+      "rating": 4,
+      "comment": "Layla helped us bargain and find authentic souvenirs. The spice market was an incredible sensory experience!",
+      "date": "2024-09-05",
+      "guideId": "6",
+      "guideName": "Layla Mostafa",
+      "guideRating": 5
+    }
+  ],
+  "savedTours": [
+    {
+      "id": "1",
+      "userId": "1",
+      "tourId": "10",
+      "title": "White Desert Camping",
+      "location": "Farafra, Egypt",
+      "price": 200,
+      "rating": 5,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f8/ef/white-desert.jpg",
+      "type": "adventure",
+      "savedDate": "2024-11-10"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "tourId": "12",
+      "title": "Mount Sinai Sunrise Hike",
+      "location": "Sinai, Egypt",
+      "price": 90,
+      "rating": 4.9,
+      "image": "https://www.tripsinegypt.com/wp-content/uploads/2019/07/Mount-Sinai-Egypt-Tours.jpg",
+      "type": "adventure",
+      "savedDate": "2024-11-05"
+    },
+    {
+      "id": "3",
+      "userId": "6",
+      "tourId": "7",
+      "title": "Alexandria Day Trip from Cairo",
+      "location": "Alexandria, Egypt",
+      "price": 110,
+      "rating": 4.7,
+      "image": "https://www.marsaalamtours.com/data1/images/Day-tour-to-Alexandria-from-Cairo/3.jpg",
+      "type": "sightseeing",
+      "savedDate": "2024-10-20"
+    },
+    {
+      "id": "4",
+      "userId": "7",
+      "tourId": "9",
+      "title": "High Dam & Philae Temple",
+      "location": "Aswan, Egypt",
+      "price": 110,
+      "rating": 4.7,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0yyeys5WyLTli1WLSW8-WnbnK2CbXDEMO0Q&s",
+      "type": "historical",
+      "savedDate": "2024-11-15"
+    }
+  ],
+  "messages": [
+    {
+      "id": "1",
+      "senderId": "1",
+      "receiverId": "2",
+      "senderName": "Osama Walid",
+      "receiverName": "Ahmed Mahmoud",
+      "message": "Hello Ahmed, I'm interested in booking the Pyramids tour for December 15th. Is that date available?",
+      "timestamp": "2024-11-10T09:30:00Z",
+      "read": true
+    },
+    {
+      "id": "2",
+      "senderId": "2",
+      "receiverId": "1",
+      "senderName": "Ahmed Mahmoud",
+      "receiverName": "Osama Walid",
+      "message": "Hi Osama, December 15th is available! Let me know how many people will be joining and any special requests you have.",
+      "timestamp": "2024-11-10T10:00:00Z",
+      "read": true
+    },
+    {
+      "id": "3",
+      "senderId": "1",
+      "receiverId": "4",
+      "senderName": "Osama Walid",
+      "receiverName": "Nourhan Ali",
+      "message": "Hi Nourhan, I would like to confirm our booking for the Nile Sunset Cruise on November 28th for 4 people.",
+      "timestamp": "2024-11-05T14:15:00Z",
+      "read": false
+    }
+  ]
+}
