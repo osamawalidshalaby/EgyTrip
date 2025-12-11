@@ -61,16 +61,7 @@ const Sidebar = ({ activeItem, onItemClick, isOpen, onClose }) => {
           ))}
         </nav>
 
-        <div className="position-absolute bottom-0 w-100 p-3">
-          <div 
-            className="d-flex align-items-center p-3"
-            style={{ cursor: 'pointer' }}
-            onClick={() => console.log('Logout clicked')}
-          >
-            <span className="me-3">🚪</span>
-            <span>Logout</span>
-          </div>
-        </div>
+        
       </div>
     </>
   );

@@ -1,6 +1,24 @@
 {
   "users": [
     {
+      "id": "admin1",
+      "username": "admin",
+      "email": "admin@egyptrip.com",
+      "password": "admin123",
+      "role": "admin",
+      "name": "System Administrator",
+      "phone": "01000000000",
+      "country": "Egypt",
+      "avatar": "👑",
+      "joinedDate": "2023-01-01",
+      "permissions": [
+        "manage_tours",
+        "manage_users",
+        "manage_bookings",
+        "manage_guides"
+      ]
+    },
+    {
       "id": "1",
       "username": "osama_walid",
       "email": "osama.walid@gmail.com",
@@ -517,7 +535,8 @@
         "Egyptologist License",
         "Tour Guide Certificate",
         "First Aid Certified"
-      ]
+      ],
+      "approved": true
     },
     {
       "id": "2",
@@ -674,7 +693,8 @@
       "certifications": [
         "Culinary Arts Diploma",
         "Food Safety Certificate"
-      ]
+      ],
+      "approved": true
     }
   ],
   "bookings": [
@@ -882,6 +902,44 @@
       "location": "Giza, Egypt",
       "type": "sightseeing",
       "description": "Booking for Great Pyramids & Sphinx Adventure with Nourhan Ali"
+    },
+    {
+      "id": "1765463613624",
+      "userId": "9",
+      "tourId": "3",
+      "guideId": "1",
+      "tourTitle": "Grand Egyptian Museum Tour",
+      "guideName": "Ahmed Mahmoud",
+      "date": "2025-12-14",
+      "numberOfPeople": 2,
+      "tourPrice": 150,
+      "guidePrice": 500,
+      "totalPrice": 800,
+      "bookingDate": "2025-12-11",
+      "status": "upcoming",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0tudT8TJp8ml5bAuXSDYkDpr5hh_AGONdiw&s",
+      "location": "Cairo, Egypt",
+      "type": "cultural",
+      "description": "Booking for Grand Egyptian Museum Tour with Ahmed Mahmoud"
+    },
+    {
+      "id": "1765464587814",
+      "userId": "11",
+      "tourId": "1",
+      "guideId": "3",
+      "tourTitle": "Great Pyramids & Sphinx Adventure",
+      "guideName": "Mohamed Hassan",
+      "date": "2025-12-16",
+      "numberOfPeople": 1,
+      "tourPrice": 89,
+      "guidePrice": 600,
+      "totalPrice": 689,
+      "bookingDate": "2025-12-11",
+      "status": "upcoming",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBZU0XOALx0zmUZsQNGDc2o5y7X240ZONPBw&s",
+      "location": "Giza, Egypt",
+      "type": "sightseeing",
+      "description": "Booking for Great Pyramids & Sphinx Adventure with Mohamed Hassan"
     }
   ],
   "reviews": [

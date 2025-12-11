@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
@@ -14,6 +15,7 @@ import Destinations from './page/Destinations';
 import TourDetails from './Components/TourDetails.jsx';
 import MyBookingsPage from './page/UserDashboard';
 import GuideDashboard from './page/GuideDashboard';
+import AdminDashboard from './Components/AdminDashboard.jsx';
 import AboutPage from './Components/AboutPage.jsx';
 import ContactPage from './Components/ContactPage.jsx';
 import LoginSignup from './Components/LoginSignup.jsx';
@@ -21,7 +23,7 @@ import GuideProfile from './Components/GuideProfile.jsx';
 import BookGuide from './Components/BookGuide.jsx';
 
 // مكون لحماية المسارات
-const ProtectedRoute = ({ children, requireGuide = false }) => {
+const ProtectedRoute = ({ children, requireGuide = false, requireAdmin = false }) => {
   const { user, isAuthenticated, loading } = useAuth();
 
   if (loading) {
@@ -43,45 +45,72 @@ const ProtectedRoute = ({ children, requireGuide = false }) => {
     return <Navigate to="/user" replace />;
   }
 
+  if (requireAdmin && user?.role !== 'admin') {
+    return <Navigate to="/" replace />;
+  }
+
   return children;
 };
 
-// المكون الرئيسي
+// المكون الرئيسي للتطبيق
+function AppContent() {
+  return (
+    <>
+      <Navbar />
+      <main style={{ marginTop: '80px' }}>
+        <Routes>
+          {/* مسارات عامة - لا تحتاج مصادقة */}
+          <Route path="/" element={<Home />} />
+          <Route path="/auth" element={<LoginSignup />} />
+          <Route path="/destinations" element={<Destinations />} />
+          <Route path="/tour/:id" element={<TourDetails />} />
+          <Route path="/guide/:id" element={<GuideProfile />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          
+          {/* مسارات محمية للمستخدمين العاديين */}
+          <Route path="/user" element={
+            <ProtectedRoute>
+              <MyBookingsPage />
+            </ProtectedRoute>
+          } />
+          
+          {/* مسار حجز مرشد - يحتاج مصادقة */}
+          <Route path="/book-guide/:id" element={
+            <ProtectedRoute>
+              <BookGuide />
+            </ProtectedRoute>
+          } />
+          
+          {/* مسارات محمية للمرشدين */}
+          <Route path="/guide-dashboard" element={
+            <ProtectedRoute requireGuide={true}>
+              <GuideDashboard />
+            </ProtectedRoute>
+          } />
+          
+          {/* مسارات محمية للمشرفين */}
+          <Route path="/admin-dashboard" element={
+            <ProtectedRoute requireAdmin={true}>
+              <AdminDashboard />
+            </ProtectedRoute>
+          } />
+          
+          {/* إعادة توجيه لجميع المسارات الأخرى */}
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
+      </main>
+    </>
+  );
+}
+
+// المكون الجذر للتطبيق
 function App() {
   return (
     <AuthProvider>
       <Router>
         <div className="App">
-          <Navbar />
-          <main style={{ marginTop: '80px' }}>
-            <Routes>
-              {/* مسارات عامة */}
-              <Route path="/" element={<Home />} />
-              <Route path="/auth" element={<LoginSignup />} />
-              <Route path="/destinations" element={<Destinations />} />
-              <Route path="/tour/:id" element={<TourDetails />} />
-              <Route path="/about" element={<AboutPage />} />
-              <Route path="/book-guide/:id" element={<BookGuide />} />
-              <Route path="/contact" element={<ContactPage />} />
-              
-              {/* مسارات محمية */}
-              <Route path="/user" element={
-                <ProtectedRoute>
-                  <MyBookingsPage />
-                </ProtectedRoute>
-              } />
-              
-              <Route path="/guide-dashboard" element={
-                <ProtectedRoute requireGuide={true}>
-                  <GuideDashboard />
-                </ProtectedRoute>
-              } />
-              <Route path="/guide/:id" element={<GuideProfile />} />
-              
-              {/* إعادة توجيه */}
-              <Route path="*" element={<Navigate to="/" replace />} />
-            </Routes>
-          </main>
+          <AppContent />
         </div>
       </Router>
     </AuthProvider>
